@@ -1,0 +1,52 @@
+
+
+body {
+    margin: 0;
+}
+#menu {
+    list-style-type: none;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    background-color: #903028; 
+}
+
+.box {
+    float: left;
+    margin-top: 20px;
+    width: 50%;
+    text-align: justify;
+
+}
+
+img {
+    max-width: 100%;
+}
+h1 {
+    color: #43442e;
+}
+
+h3 {
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:  white;
+    padding:  14px 16px;
+
+}
+
+li a:hover {
+    background-color: #68231D;
+    
+
+}
+
+li {
+    float:  left;
+
+}
