@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .galery {
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      .galery:hover {
+        border: solid #777;
+      }
+      .galery img {
+        width: 100%;
+        height: auto;
+      }
+      .desc {
+        color: #777;
+        padding: 15px;
+        text-align: center;
+      }
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+     * {
+       box-sizing: border-box;
+     }
+     .responsive {
+       padding: 0 6px;
+       float: left;
+       width: 24.99999% ;
+
+     }
+     @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999% ;
+          margin: 6px 0;
+
+        }
+      }
+        @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100% ;
+     }
+    }
+    </style>
+    <title>Aula</title>
+  </head>
+  <body>
+    <div class = "responsive">
+      <div class="galery">
+        <a href="img_5terre.jpg" target="_blank">
+          <img src="img_5terre.jpg" alt="êtalia" width="600" height="400" />
+        </a>
+        <div class="desc">Motel a beira mar</div>
+      </div>
+    </div>
+    <div class = "responsive">
+      <div class="galery">
+        <a href="img_forest.jpg" target="_blank">
+          <img src="img_forest.jpg" alt="froresta" width="600" height="400" />
+        </a>
+        <div class="desc">Foto de pau</div>
+      </div>
+    </div>
+    <div class = "responsive">
+      <div class="galery">
+        <a href="img_lights.jpg" target="_blank">
+          <img src="img_lights.jpg" alt="luzizes" width="600" height="400" />
+        </a>
+        <div class="desc">Foto de luz</div>
+      </div>
+    </div>
+    <div class = "responsive">
+      <div class="galery">
+        <a href="img_mountains.jpg" target="_blank">
+          <img src="img_mountains.jpg" alt="luzizes" width="600" height="400" />
+        </a>
+        <div class="desc">rabas milenares</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus
+      tortor, dapibus non odio eu, mattis scelerisque tortor. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit. Duis vestibulum, lorem sed lobortis
+      rhoncus, tortor mauris pretium est, dapibus finibus neque nibh at tortor.
+      Ut maximus eros elit, a mollis felis vehicula eget. Vestibulum magna
+      ipsum, feugiat at pulvinar sed, auctor vitae justo. Interdum et malesuada
+      fames ac ante ipsum primis in faucibus. Donec nulla lectus, mattis nec
+      nulla a, sagittis dignissim elit. Donec vitae lectus ut nibh fringilla
+      varius at et ex. Vestibulum finibus semper mauris in dictum. Suspendisse
+      pulvinar at metus et hendrerit. Quisque volutpat elit quis ipsum malesuada
+      pellentesque.
+    </p>
+  </body>
+</html>
